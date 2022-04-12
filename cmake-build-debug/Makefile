@@ -112,17 +112,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cs344_assignment_1
+# Target rules for targets named burrelni_program1
 
 # Build rule for target.
-cs344_assignment_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) cs344_assignment_1
-.PHONY : cs344_assignment_1
+burrelni_program1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) burrelni_program1
+.PHONY : burrelni_program1
 
 # fast build rule for target.
-cs344_assignment_1\fast:
-	$(MAKE) -f CMakeFiles\cs344_assignment_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs344_assignment_1.dir\build
-.PHONY : cs344_assignment_1\fast
+burrelni_program1\fast:
+	$(MAKE) -f CMakeFiles\burrelni_program1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\burrelni_program1.dir\build
+.PHONY : burrelni_program1\fast
 
 src\logger.obj: src\logger.c.obj
 
@@ -130,7 +130,7 @@ src\logger.obj: src\logger.c.obj
 
 # target to build an object file
 src\logger.c.obj:
-	$(MAKE) -f CMakeFiles\cs344_assignment_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs344_assignment_1.dir\src\logger.c.obj
+	$(MAKE) -f CMakeFiles\burrelni_program1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\burrelni_program1.dir\src\logger.c.obj
 .PHONY : src\logger.c.obj
 
 src\logger.i: src\logger.c.i
@@ -139,7 +139,7 @@ src\logger.i: src\logger.c.i
 
 # target to preprocess a source file
 src\logger.c.i:
-	$(MAKE) -f CMakeFiles\cs344_assignment_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs344_assignment_1.dir\src\logger.c.i
+	$(MAKE) -f CMakeFiles\burrelni_program1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\burrelni_program1.dir\src\logger.c.i
 .PHONY : src\logger.c.i
 
 src\logger.s: src\logger.c.s
@@ -148,7 +148,7 @@ src\logger.s: src\logger.c.s
 
 # target to generate assembly for a file
 src\logger.c.s:
-	$(MAKE) -f CMakeFiles\cs344_assignment_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs344_assignment_1.dir\src\logger.c.s
+	$(MAKE) -f CMakeFiles\burrelni_program1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\burrelni_program1.dir\src\logger.c.s
 .PHONY : src\logger.c.s
 
 src\main.obj: src\main.c.obj
@@ -157,7 +157,7 @@ src\main.obj: src\main.c.obj
 
 # target to build an object file
 src\main.c.obj:
-	$(MAKE) -f CMakeFiles\cs344_assignment_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs344_assignment_1.dir\src\main.c.obj
+	$(MAKE) -f CMakeFiles\burrelni_program1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\burrelni_program1.dir\src\main.c.obj
 .PHONY : src\main.c.obj
 
 src\main.i: src\main.c.i
@@ -166,7 +166,7 @@ src\main.i: src\main.c.i
 
 # target to preprocess a source file
 src\main.c.i:
-	$(MAKE) -f CMakeFiles\cs344_assignment_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs344_assignment_1.dir\src\main.c.i
+	$(MAKE) -f CMakeFiles\burrelni_program1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\burrelni_program1.dir\src\main.c.i
 .PHONY : src\main.c.i
 
 src\main.s: src\main.c.s
@@ -175,7 +175,7 @@ src\main.s: src\main.c.s
 
 # target to generate assembly for a file
 src\main.c.s:
-	$(MAKE) -f CMakeFiles\cs344_assignment_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs344_assignment_1.dir\src\main.c.s
+	$(MAKE) -f CMakeFiles\burrelni_program1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\burrelni_program1.dir\src\main.c.s
 .PHONY : src\main.c.s
 
 # Help Target
@@ -184,7 +184,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... cs344_assignment_1
+	@echo ... burrelni_program1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... src/logger.obj

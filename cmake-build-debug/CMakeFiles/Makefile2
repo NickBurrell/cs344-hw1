@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles\cs344_assignment_1.dir\all
+all: CMakeFiles\burrelni_program1.dir\all
 
 .PHONY : all
 
@@ -64,36 +64,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles\cs344_assignment_1.dir\clean
+clean: CMakeFiles\burrelni_program1.dir\clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/cs344_assignment_1.dir
+# Target rules for target CMakeFiles/burrelni_program1.dir
 
 # All Build rule for target.
-CMakeFiles\cs344_assignment_1.dir\all:
-	$(MAKE) -f CMakeFiles\cs344_assignment_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs344_assignment_1.dir\depend
-	$(MAKE) -f CMakeFiles\cs344_assignment_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs344_assignment_1.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target cs344_assignment_1"
-.PHONY : CMakeFiles\cs344_assignment_1.dir\all
+CMakeFiles\burrelni_program1.dir\all:
+	$(MAKE) -f CMakeFiles\burrelni_program1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\burrelni_program1.dir\depend
+	$(MAKE) -f CMakeFiles\burrelni_program1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\burrelni_program1.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target burrelni_program1"
+.PHONY : CMakeFiles\burrelni_program1.dir\all
 
 # Build rule for subdir invocation for target.
-CMakeFiles\cs344_assignment_1.dir\rule: cmake_check_build_system
+CMakeFiles\burrelni_program1.dir\rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\CMakeFiles 3
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\cs344_assignment_1.dir\all
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\burrelni_program1.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles\cs344_assignment_1.dir\rule
+.PHONY : CMakeFiles\burrelni_program1.dir\rule
 
 # Convenience name for target.
-cs344_assignment_1: CMakeFiles\cs344_assignment_1.dir\rule
+burrelni_program1: CMakeFiles\burrelni_program1.dir\rule
 
-.PHONY : cs344_assignment_1
+.PHONY : burrelni_program1
 
 # clean rule for target.
-CMakeFiles\cs344_assignment_1.dir\clean:
-	$(MAKE) -f CMakeFiles\cs344_assignment_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cs344_assignment_1.dir\clean
-.PHONY : CMakeFiles\cs344_assignment_1.dir\clean
+CMakeFiles\burrelni_program1.dir\clean:
+	$(MAKE) -f CMakeFiles\burrelni_program1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\burrelni_program1.dir\clean
+.PHONY : CMakeFiles\burrelni_program1.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

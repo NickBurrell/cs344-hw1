@@ -42,5 +42,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/cs344_assignment_1.dir/DependInfo.cmake"
+  "CMakeFiles/burrelni_program1.dir/DependInfo.cmake"
   )

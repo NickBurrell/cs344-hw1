@@ -17,8 +17,8 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="cs344_assignment_1">
-				<Option output="C:/Users/nickb/git/cs344_assignment_1/cmake-build-debug/cs344_assignment_1.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="burrelni_program1">
+				<Option output="C:/Users/nickb/git/cs344_assignment_1/cmake-build-debug/burrelni_program1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/nickb/git/cs344_assignment_1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -35,14 +35,14 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\Makefile VERBOSE=1 cs344_assignment_1"/>
+					<Build command="nmake /NOLOGO /f C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\Makefile VERBOSE=1 burrelni_program1"/>
 					<CompileFile command="nmake /NOLOGO /f C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="cs344_assignment_1/fast">
-				<Option output="C:/Users/nickb/git/cs344_assignment_1/cmake-build-debug/cs344_assignment_1.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="burrelni_program1/fast">
+				<Option output="C:/Users/nickb/git/cs344_assignment_1/cmake-build-debug/burrelni_program1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/nickb/git/cs344_assignment_1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -59,7 +59,7 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\Makefile VERBOSE=1 cs344_assignment_1/fast"/>
+					<Build command="nmake /NOLOGO /f C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\Makefile VERBOSE=1 burrelni_program1/fast"/>
 					<CompileFile command="nmake /NOLOGO /f C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f C:\Users\nickb\git\cs344_assignment_1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
@@ -87,10 +87,10 @@
 			</Target>
 		</Build>
 		<Unit filename="C:/Users/nickb/git/cs344_assignment_1/src/logger.c">
-			<Option target="cs344_assignment_1"/>
+			<Option target="burrelni_program1"/>
 		</Unit>
 		<Unit filename="C:/Users/nickb/git/cs344_assignment_1/src/main.c">
-			<Option target="cs344_assignment_1"/>
+			<Option target="burrelni_program1"/>
 		</Unit>
 		<Unit filename="C:/Users/nickb/git/cs344_assignment_1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
