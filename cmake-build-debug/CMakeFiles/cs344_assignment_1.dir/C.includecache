@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/movie.h
+stdint.h
+-
+
+../include/util.h
+util/iterator_utils.h
+../include/util/iterator_utils.h
+util/logger.h
+../include/util/logger.h
+
+../include/util/dyn_array.h
+util/iterator.h
+-
+
+../include/util/iterator.h
+
+../include/util/iterator_utils.h
+
+../include/util/logger.h
+stdarg.h
+-
+stdio.h
+-
+
+C:/Users/nickb/git/cs344_assignment_1/src/main.c
+stdio.h
+-
+movie.h
+-
+util.h
+-
+util/dyn_array.h
+-
+
